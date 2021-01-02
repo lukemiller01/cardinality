@@ -1117,6 +1117,186 @@ p {
         .counter-wrapper .single-counter .text {
           font-size: 16px; } }
 
+/*===========================
+       07.TEAM css 
+===========================*/
+.single-team {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  overflow: hidden;
+  border-radius: 10px; }
+  .single-team .team-image {
+    position: relative; }
+    .single-team .team-image img {
+      width: 100%; }
+    .single-team .team-image .social {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 25px; }
+      .single-team .team-image .social ul {
+        background-color: rgba(255, 255, 255, 0.23);
+        display: inline-block;
+        border-radius: 50px;
+        padding: 0 13px;
+        position: relative;
+        z-index: 5;
+        overflow: hidden; }
+        .single-team .team-image .social ul::before {
+          position: absolute;
+          content: '';
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+          background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+          background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+          opacity: 0;
+          visibility: hidden;
+          -webkit-transition: all 0.3s ease-out 0s;
+          -moz-transition: all 0.3s ease-out 0s;
+          -ms-transition: all 0.3s ease-out 0s;
+          -o-transition: all 0.3s ease-out 0s;
+          transition: all 0.3s ease-out 0s; }
+        .single-team .team-image .social ul li {
+          display: inline-block; }
+          .single-team .team-image .social ul li a {
+            padding: 15px 13px;
+            color: #fff; }
+  .single-team .team-content {
+    padding: 30px; }
+    .single-team .team-content .holder-name a {
+      font-size: 20px;
+      font-weight: 700;
+      color: #2E2E2E; }
+    .single-team .team-content .text {
+      margin-top: 5px; }
+  .single-team:hover .team-image .social ul::before {
+    opacity: 1;
+    visibility: visible; }
+
+/*===========================
+     08.TESTIMONIAL css 
+===========================*/
+.single-testimonial {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 25px 30px 5px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  margin: 30px 0;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+  @media (max-width: 767px) {
+    .single-testimonial {
+      padding: 20px 20px 5px; } }
+  .single-testimonial .testimonial-review .quota i {
+    font-size: 36px;
+    color: #119BD2;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+  .single-testimonial .testimonial-review .star ul li {
+    display: inline-block;
+    font-size: 16px;
+    color: #FE806D; }
+  .single-testimonial .testimonial-text {
+    margin-top: 25px; }
+  .single-testimonial .testimonial-author {
+    margin-top: 30px; }
+    .single-testimonial .testimonial-author .author-image {
+      position: relative; }
+      .single-testimonial .testimonial-author .author-image .author {
+        position: absolute;
+        top: 17px;
+        left: 17px;
+        width: 80px;
+        height: 80px; }
+    .single-testimonial .testimonial-author .author-content .holder-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #2E2E2E; }
+    .single-testimonial .testimonial-author .author-content .text {
+      font-size: 15px; }
+  .single-testimonial:hover {
+    border-color: #FE7A7B; }
+    .single-testimonial:hover .testimonial-review .quota i {
+      color: #FE7A7B; }
+
+.slick-center .single-testimonial {
+  border-color: #FE7A7B; }
+  .slick-center .single-testimonial .testimonial-review .quota i {
+    color: #FE7A7B; }
+
+.testimonial-active .slick-dots {
+  margin: 0 auto; }
+  .testimonial-active .slick-dots li {
+    display: inline-block;
+    margin: 0 4px; }
+    .testimonial-active .slick-dots li button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #fe8464 0%, #fe6e9a 100%);
+      border: 0;
+      font-size: 0;
+      opacity: 0.5;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+    .testimonial-active .slick-dots li.slick-active button {
+      opacity: 1;
+      width: 15px;
+      height: 15px; }
+
+/*===========================
+       09.BLOG  css 
+===========================*/
+.single-blog .blog-image img {
+  border-radius: 10px;
+  width: 100%; }
+
+.single-blog .blog-content {
+  padding-top: 25px; }
+  .single-blog .blog-content .meta li {
+    font-size: 16px;
+    color: #6A6972;
+    display: inline-block;
+    margin-left: 50px; }
+    .single-blog .blog-content .meta li:first-child {
+      margin-left: 0; }
+    .single-blog .blog-content .meta li a {
+      color: #6A6972; }
+  .single-blog .blog-content .text {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #2E2E2E;
+    margin-top: 15px; }
+    @media (max-width: 767px) {
+      .single-blog .blog-content .text {
+        font-size: 20px;
+        line-height: 30px; } }
+  .single-blog .blog-content .more {
+    font-size: 16px;
+    color: #FE7E71;
+    margin-top: 30px; }
+    .single-blog .blog-content .more i {
+      margin-left: 5px; }
 
 /*===========================
        10.SUBSCRIBE  css 
@@ -1213,7 +1393,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/footer-bg.svg);
+  background-image: url(../images/pexels-chris-schippers-421927.jpg);
   background-position: top center;
   z-index: -1;
   background-size: cover; }
