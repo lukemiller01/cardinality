@@ -1025,7 +1025,7 @@ p {
       text-align: center;
       border-radius: 50%;
       background-color: #fff;
-      color: #e8505bff;
+      color: #2b50aaff;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -1098,24 +1098,24 @@ p {
       background: -o-linear-gradient(#2b50aaff 0%, #d4e1fdff 100%);
       background: linear-gradient(#2b50aaff 0%, #d4e1fdff 100%); }
     .counter-wrapper .single-counter .count {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 700;
       color: #fff; }
       @media (max-width: 767px) {
         .counter-wrapper .single-counter .count {
-          font-size: 18px; } }
+          font-size: 14px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
         .counter-wrapper .single-counter .count {
-          font-size: 22px; } }
+          font-size: 18px; } }
     .counter-wrapper .single-counter .text {
-      font-size: 16px;
+      font-size: 12px;
       color: #fff; }
       @media (max-width: 767px) {
         .counter-wrapper .single-counter .text {
-          font-size: 14px; } }
+          font-size: 10px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
         .counter-wrapper .single-counter .text {
-          font-size: 16px; } }
+          font-size: 12px; } }
 
 /*===========================
        07.TEAM css 
