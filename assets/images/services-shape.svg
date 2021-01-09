@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119.036" height="118.984" viewBox="0 0 119.036 118.984">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#33c8c1"/>
-      <stop offset="1" stop-color="#119bd2"/>
-    </linearGradient>
-  </defs>
-  <path id="Path_8" data-name="Path 8" d="M20.207.537c22.975-5.465,65.915,32.12,65.915,52.53s-59.3,38.087-75.84,31.462S-2.768,6,20.207.537Z" transform="matrix(0.839, 0.545, -0.545, 0.839, 46.808, 0)" opacity="0.15" fill="url(#linear-gradient)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 119 119" style="enable-background:new 0 0 119 119;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D3E0FE;}
+</style>
+<path class="st0" d="M52.5,24.6L31,37c-3.8,2.2-5.1,6.8-2.9,10.7l26.4,45.8c2.2,3.8,6.8,5.1,10.7,2.9l21.6-12.4
+	c3.8-2.2,5.1-6.8,2.9-10.7L63.2,27.4C60.9,23.7,56.3,22.4,52.5,24.6z M74.4,87.4c-2.2,1.2-5.2,0.4-6.4-1.7s-0.4-5.2,1.7-6.4
+	s5.2-0.4,6.4,1.7S76.6,86.2,74.4,87.4z M80.3,69.6L56,83.6L34.2,45.9l24.2-14L80.3,69.6z"/>
 </svg>
