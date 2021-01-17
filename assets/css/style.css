@@ -1351,10 +1351,12 @@ p {
   .subscribe-form button {
     position: relative;
     top: 0;
-    right: 100;
+    right: 400;
     border-radius: 0;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
     height: 65px;
     line-height: 65px;
     background: -webkit-linear-gradient(left, #e4897bff 0%, #e8505bff 50%, #e4897bff 100%);
@@ -1374,7 +1376,9 @@ p {
         margin-top: 0;
         border-radius: 0;
         border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px; } }
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px; } }
     .subscribe-form button:hover {
       color: #fff;
       background-position: right center; }
