@@ -1302,11 +1302,59 @@ p {
        10.SUBSCRIBE  css 
 ===========================*/
 
-.mailto{
-  display:block;
-  width:100px;
-  height:20px;
-}
+.mailto {
+  position: relative; }
+  .subscribe-form input {
+    border: 2px solid #E1E1E1;
+    height: 65px;
+    padding: 0 30px;
+    border-radius: 5px;
+    width: 100%;
+    color: #2E2E2E; }
+    .subscribe-form input::placeholder {
+      opacity: 1;
+      color: #B9B9B9; }
+    .subscribe-form input::-moz-placeholder {
+      opacity: 1;
+      color: #B9B9B9; }
+    .subscribe-form input::-moz-placeholder {
+      opacity: 1;
+      color: #B9B9B9; }
+    .subscribe-form input::-webkit-input-placeholder {
+      opacity: 1;
+      color: #B9B9B9; }
+    .subscribe-form input:focus {
+      border-color: #2b50aaff; }
+  .subscribe-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 65px;
+    line-height: 65px;
+    background: -webkit-linear-gradient(left, #e4897bff 0%, #e8505bff 50%, #e4897bff 100%);
+    background: -o-linear-gradient(left, #e4897bff 0%, #e8505bff 50%, #e4897bff 100%);
+    background: linear-gradient(to right, #e4897bff 0%, #e8505bff 50%, #e4897bff 100%);
+    background-size: 200%; }
+    @media (max-width: 767px) {
+      .subscribe-form button {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 5px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .subscribe-form button {
+        position: absolute;
+        width: auto;
+        margin-top: 0;
+        border-radius: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px; } }
+    .subscribe-form button:hover {
+      color: #fff;
+      background-position: right center; }
 
 .subscribe-area {
   padding: 40px 50px 90px;
