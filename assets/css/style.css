@@ -1349,9 +1349,9 @@ p {
     .subscribe-form input:focus {
       border-color: #2b50aaff; }
   .subscribe-form button {
-    position: absolute;
+    position: relative;
     top: 0;
-    right: 0;
+    right: 100;
     border-radius: 0;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
