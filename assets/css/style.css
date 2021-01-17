@@ -151,7 +151,7 @@ p {
   background-size: 200%; }
   .main-btn:hover {
     color: #fff;
-    background-position: right center; }
+    background-position: center; }
 
 /*===== All SECTION TITLE Style =====*/
 .section-title .line {
